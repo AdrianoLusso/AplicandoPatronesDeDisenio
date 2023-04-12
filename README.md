@@ -1,3 +1,5 @@
+EN DESARROLLO.
+
 Proyecto personal de aprendizaje teorico/practico.
 
 Diseniare varias aplicaciones de prueba donde creare un dominio, diagrama UML e implementacion en lenguaje JAVA. El objetivo es tratar de utilizar diferentes patrones
