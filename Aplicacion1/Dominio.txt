@@ -1,0 +1,25 @@
+
+Patrones usados:
+Abstrasct factory
+Bridge
+Strategy
+
+Se quiere crear una tienda virtual multiplataforma para Windows,Linux y IOS. Esta aplicacion
+cuenta con multiples objetos GUI cuya apariencia es la misma para el usuario, pero a los que 
+se debera adaptar su implementacion de acuerdo a los APIs correspondientes a los diferentes
+sistemas operativos.Algunos de objetos GUI que existen son Boton,Texto y Catalogo.
+Se necesita que a la hora iniciar la aplicacion, esta reconozca sobre que SO se esta 
+ejecutando e inicialice todos estos objetos GUI a traves de la API correspondiente al SO.
+
+Algunos de los objetos GUI tienes especificaciones particulares:
+Los botones tienen 2 tipo diferentes de apariciencia visual, de acuerdo al espacio que deban
+ocupar en pantalla. Esto afecta el tamanio del boton en si, el de su texto interno, color, y
+otros detalles de apariencia.
+
+Respecto a un catalogo, que se encarga de mostrar los productos, debe poder mostrarlos usando
+diferentes ordenes de busqueda. Existen 3 ordenes de obsqueda:por de menor a mayor
+precio,por nombre(siguiendo el abecedario comun) y de mayor a menor popularidad del vendedor.
+Se debe permitir poder agregar nuevos tipos de ordenamiento a futuro. En cuanto a los filtros.
+
+Hay que tener en cuenta que, a futuro, se puede necesitar agregar nuevos tipos de textos o de catalogos.
+Por ejemplo, textos tipo titulo,subtitulos,descripcion... y catalogos tipo completo, resumido...
